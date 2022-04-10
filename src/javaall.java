@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 import java.util.SortedMap;
+=======
+import java.util.Random;
+import java.util.Scanner;
+>>>>>>> c1a83d7 (Initial commit)
 
 public class javaall {
     public static void main(String[] args) {
@@ -322,6 +327,7 @@ public class javaall {
         }
          */
 
+<<<<<<< HEAD
         //猜数字游戏
         /*
         int x;
@@ -341,6 +347,75 @@ public class javaall {
         
 
 
+=======
+       /*二维数组
+        //int x [][]=new int[3][3];
+        //x[0]=new int[]{1,2,3};
+        //int [][] x={{1,2,3},{4,5,6},{7,8,9}};
+        */
+
+      /*
+        int [][] arr=new int[3][];
+         arr[0]=new int[]{81,99};
+        arr[1]=new int[]{75,79,84};
+        arr[2]=new int[]{54,60,86,80};
+        int sum=0;
+        int count=0;
+        for (int i=0;i<arr.length;i++)
+        {
+            int groupsum=0;
+            for(int j=0;j<arr[i].length;j++)
+            {
+            groupsum=groupsum+arr[i][j];
+            count++;
+            }
+            System.out.println("第"+(i+1)+"组的总成绩为"+groupsum+"平均成绩为"+groupsum/arr[i].length);
+            sum=groupsum+sum;
+        }
+        System.out.println(arr.length+"个小组的总成绩为"+sum+"平均成绩为"+sum/count);
+       */
+
+        System.out.println("随机点名器");
+        String [] students=new String[5];
+        //存储同学名字
+        addStudnetName(students);
+        //输出同学的名字
+        printStudentName(students);
+        //随机同学
+        String callname=randomStudent(students);
+        System.out.println("被点到的同学是"+callname);
+
+    }
+
+    //储存班级同学信息
+    //通过键盘输入的方法输入每一位同学的信息
+    public static void addStudnetName (String[] students)
+    {
+        Scanner scanner=new Scanner(System.in);
+        for (int i=0;i<students.length;i++)
+        {
+            System.out.println("正在存储"+(i+1)+"个同学的名字");
+            students[i]= scanner.next();
+        }
+    }
+    //总揽已经存储的名字
+    public static void printStudentName(String[] students)
+    {
+        for (int i=0;i<students.length;i++)
+        {
+            String name =students[i];
+            System.out.println("第"+(i+1)+"个同学的名字是"+students[i]);
+        }
+    }
+    public static String randomStudent(String[] students)
+    {
+        //根据数组长度获取随机的索引
+        int index= new Random().nextInt(students.length);
+        //通过随机数获得随机的名字
+        String name = students[index];
+        //返回随机的名字
+        return name;
+>>>>>>> c1a83d7 (Initial commit)
     }
 }
 
