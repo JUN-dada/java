@@ -342,7 +342,6 @@ public class javaall {
         //int x [][]=new int[3][3];
         
 
-
        /*二维数组
         //int x [][]=new int[3][3];
         //x[0]=new int[]{1,2,3};
