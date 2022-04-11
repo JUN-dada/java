@@ -324,7 +324,6 @@ public class javaall {
         }
          */
 
-<<<<<<< HEAD
         //猜数字游戏
         /*
         int x;
@@ -344,7 +343,6 @@ public class javaall {
         
 
 
-=======
        /*二维数组
         //int x [][]=new int[3][3];
         //x[0]=new int[]{1,2,3};
@@ -412,7 +410,6 @@ public class javaall {
         String name = students[index];
         //返回随机的名字
         return name;
->>>>>>> c1a83d7 (Initial commit)
     }
 }
 
