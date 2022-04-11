@@ -379,6 +379,7 @@ public class javaall {
         String callname=randomStudent(students);
         System.out.println("被点到的同学是"+callname);
         int a;
+        int b;
 
     }
 
