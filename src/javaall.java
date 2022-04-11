@@ -378,8 +378,6 @@ public class javaall {
         //随机同学
         String callname=randomStudent(students);
         System.out.println("被点到的同学是"+callname);
-        int a;
-        int b;
 
     }
 
