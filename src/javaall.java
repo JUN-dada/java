@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 import java.util.Scanner;
 import java.util.SortedMap;
-=======
 import java.util.Random;
 import java.util.Scanner;
->>>>>>> c1a83d7 (Initial commit)
 
 public class javaall {
     public static void main(String[] args) {
